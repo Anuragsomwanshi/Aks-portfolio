@@ -11,7 +11,7 @@ const Head = () => {
 
 
         </h1>
-        <span className='text-justify text-xl p-1' >A passionate sketch artist specializing in creating realistic and creative hand-drawn portraits, illustrations, and custom artwork. Skilled sketch artist with a strong eye for detail, dedicated to creating expressive and high-quality drawings.</span>
+        <span className='text-justify text-xl  p-1' >A passionate sketch artist specializing in creating realistic and creative hand-drawn portraits, illustrations, and custom artwork. Skilled sketch artist with a strong eye for detail, dedicated to creating expressive and high-quality drawings.</span>
         <div className='flex justify-evenly '>
         <button className=' p-4  m-1 bg-yellow-200 border border-transparent  hover:border-black hover:bg-transparent transition duration-500 '>My Work {'->'} </button>
         <button className=' p-4  m-1 bg-yellow-200 border border-transparent  hover:border-black hover:bg-transparent transition duration-500 '>Get In Touch {'->'}</button>
