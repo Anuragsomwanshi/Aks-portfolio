@@ -37,7 +37,7 @@ const Contact = () => {
           <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
             <div>
               <input
-                className="  px-4 py-3 w-xl   rounded border border-gray-140 outline-none  "
+                className="  px-4 py-3 w-l   rounded border border-gray-140 outline-none  "
                 placeholder="Enter Name"
                 type="text"
                 name="name"
@@ -46,7 +46,7 @@ const Contact = () => {
 
             <div >
               <input
-                className=" px-4 py-3  w-xl rounded border border-gray-140 outline-none "
+                className=" px-4 py-3  w-l rounded border border-gray-140 outline-none "
                 placeholder="Enter Email"
                 type="text"
                 name="email"
@@ -56,7 +56,7 @@ const Contact = () => {
 
           <div>
             <input
-              className="  px-4 py-3  w-xl border border-gray-140 rounded ountline-none "
+              className="  px-4 py-3  w-l border border-gray-140 rounded ountline-none "
               placeholder="Enter subject"
               type="text"
               name="subject"
@@ -65,7 +65,7 @@ const Contact = () => {
 
           <div>
             <textarea
-              className=" px-4 py-3 w-xl h-40 border border-gray-140 rounded ountline-none"
+              className=" px-4 py-3 w-l h-40 border border-gray-140 rounded ountline-none"
               placeholder="Enter Message"
               type="textarea"
               name="message"
