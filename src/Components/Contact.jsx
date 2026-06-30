@@ -32,31 +32,32 @@ const Contact = () => {
     <div id="Contact" className="min-h-screen">
       <h1 className=" place-self-center text-2xl">Get In Touch</h1>
 
-      <div className="max-w-3xl mx-auto  mt-35 flex flex-col  items-center ">
+      <div className="max-w-3xl mx-auto  mt-35 flex flex-col  items-center gap-6  ">
         <form onSubmit={onSubmit} className="space-y-6">
-          <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
+          
             <div>
               <input
-                className="  px-4 py-3 w-l   rounded border border-gray-140 outline-none  "
+                className="  px-4 py-3 w-lg   rounded border border-gray-140 outline-none  "
                 placeholder="Enter Name"
                 type="text"
                 name="name"
               />
-            </div>
+              </div>
+            
 
             <div >
               <input
-                className=" px-4 py-3  w-l rounded border border-gray-140 outline-none "
+                className=" px-4 py-3  w-lg rounded border border-gray-140 outline-none "
                 placeholder="Enter Email"
                 type="text"
                 name="email"
               />
             </div>
-          </div>
+        
 
           <div>
             <input
-              className="  px-4 py-3  w-l border border-gray-140 rounded ountline-none "
+              className="  px-4 py-3  w-lg border border-gray-140 rounded ountline-none "
               placeholder="Enter subject"
               type="text"
               name="subject"
@@ -65,7 +66,7 @@ const Contact = () => {
 
           <div>
             <textarea
-              className=" px-4 py-3 w-l h-40 border border-gray-140 rounded ountline-none"
+              className=" px-4 py-3 w-lg h-40 border border-gray-140 rounded ountline-none"
               placeholder="Enter Message"
               type="textarea"
               name="message"
