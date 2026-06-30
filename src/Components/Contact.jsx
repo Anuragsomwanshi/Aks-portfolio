@@ -32,12 +32,12 @@ const Contact = () => {
     <div id="Contact" className="min-h-screen">
       <h1 className=" place-self-center text-2xl">Get In Touch</h1>
 
-      <div className="max-w-3xl mx-auto  mt-35 border sm:flex justify-center">
+      <div className="max-w-3xl mx-auto  mt-35 ">
         <form onSubmit={onSubmit} className="space-y-6">
           <div className="grid grid-cols-1  md:grid-cols-2 gap-6">
             <div>
               <input
-                className=" px-4 py-3 sm:w-100 md:w-full   rounded border border-gray-140 outline-none  "
+                className="  m-5 px-4 py-3 w-full   rounded border border-gray-140 outline-none  "
                 placeholder="Enter Name"
                 type="text"
                 name="name"
@@ -46,7 +46,7 @@ const Contact = () => {
 
             <div >
               <input
-                className=" px-4 py-3 sm:w-100 md:w-full rounded border border-gray-140 outline-none "
+                className=" m-5 px-4 py-3  w-full rounded border border-gray-140 outline-none "
                 placeholder="Enter Email"
                 type="text"
                 name="email"
@@ -56,7 +56,7 @@ const Contact = () => {
 
           <div>
             <input
-              className="px-4 py-3 sm:w-100 md:w-full border border-gray-140 rounded ountline-none "
+              className=" m-5 px-4 py-3  w-full border border-gray-140 rounded ountline-none "
               placeholder="Enter subject"
               type="text"
               name="subject"
@@ -65,7 +65,7 @@ const Contact = () => {
 
           <div>
             <textarea
-              className="px-4 py-3 sm:w-100 md:w-full h-40 border border-gray-140 rounded ountline-none"
+              className=" m-5 px-4 py-3 w-full h-40 border border-gray-140 rounded ountline-none"
               placeholder="Enter Message"
               type="textarea"
               name="message"

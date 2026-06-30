@@ -9,6 +9,8 @@ const workcard = ({ item }) => {
       <div className="flex flex-row justify-evenly mt-3  text-blue-800" >
         <p>{item.name}</p>
         <p>{item.price}</p>
+        
+
       </div>
     </div>
   );

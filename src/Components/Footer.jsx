@@ -17,11 +17,11 @@ const Footer = () => {
                 <div>
                     <a href="#Home" className='cursor pointer'>
 
-                    <button className='border border-2xl  w-2 h-2 p-2  rounded-full'>^</button>
+                    <button className='border border-2xl  w-2 h-2 p-2  rounded-full'></button>
                     </a>
                     </div>
                     
-                <div className='flex  justify-evenly  w-xl '>
+                <div className='flex  justify-evenly  w-xl'>
 
                      
                      <a href="https://www.instagram.com/kartik_s_0_01/?hl=en" target="_blank" rel="noopener noreferrer">

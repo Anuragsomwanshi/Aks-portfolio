@@ -31,7 +31,10 @@ const Navbar = () => {
                 {navMenu.map((item,index)=>(
                     <a className='text-sm  md:text-2xl md:border-b-2 border-transparent hover:border-black transition duration-400' key={index} onClick={closeMenu}  href={`#${item}`}>{item}</a>
                     
+                    
                 ))}
+                
+
 
 
    
