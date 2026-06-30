@@ -3,16 +3,16 @@ import { assets } from '../assets/assets'
 
 const About = () => {
   return (
-    <div id='about' className='min-h-screen flex flex-col  lg:flex-row'>
+    <div id='About' className='min-h-screen flex flex-col  lg:flex-row'>
 
         <div className=' bg-green-200 basis-full md:basis-1/2 p-4 m-4 flex flex-col items-center'>
       <h1 className='md:text-2xl p-2 m-2  l:m-0'>About</ h1>
-        <img className='md:w-lg shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)]' src={assets.about} alt=""/>
+        <img className='md:w-md shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)]' src={assets.about} alt=""/>
 
         </div>
 
-        <div className='bg-orange-200 duration-400 hover:text-blue-950   basis-full md:basis-1/2 p-4 m-4 '>
-            <p className=' p-10 text-justify md:text-md md:p-2 lg:text-l '>
+        <div className='bg-orange-200 duration-400 hover:text-blue-950   basis-full md:basis-1/2 p-2 m-2'>
+            <p className=' text-justify md:text-lg md:p-4 lg:text-l '>
 
 Hello! I'm Kartik Raghunath Somwanshi, a passionate and dedicated sketch artist who believes that every piece of art tells a unique story. My journey in the world of art began with a simple love for drawing, and over the years, that passion has grown into a meaningful career and a lifelong dream.
 

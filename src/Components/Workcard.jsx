@@ -2,11 +2,11 @@ import React from "react";
 
 const workcard = ({ item }) => {
   return (
-    <div className="bg-yellow-200 rounded-lg  shadow-[15px_8px_10px_2px_rgba(0,0,0,0.3)] hover:scale-104 duration-300 " >
+    <div className=" bg-yellow-200 rounded-lg  shadow-[15px_8px_10px_2px_rgba(0,0,0,0.3)] hover:scale-104 duration-250 " >
       <div>
         <img  src={item.img} alt="" />
       </div>
-      <div >
+      <div className="flex flex-row justify-evenly mt-3  text-blue-800" >
         <p>{item.name}</p>
         <p>{item.price}</p>
       </div>

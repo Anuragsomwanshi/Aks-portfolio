@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Head = () => {
   return (
-    <div  id='home' className='min-h-screen flex flex-col  pt-15 md:flex-row'>
+    <div  id='Home' className='min-h-screen flex flex-col  pt-15 md:flex-row'>
 
         <div className=' m-6 p-4  basis-full md:basis-1/2 flex flex-col justify-center  md:space-y-10' >
         <h1 className='text-5xl sm:text-6xl md:text-7xl  '>
@@ -13,8 +13,18 @@ const Head = () => {
         </h1>
         <span className='text-justify text-xl  p-1' >A passionate sketch artist specializing in creating realistic and creative hand-drawn portraits, illustrations, and custom artwork. Skilled sketch artist with a strong eye for detail, dedicated to creating expressive and high-quality drawings.</span>
         <div className='flex justify-evenly '>
+          <a href="#Work">
         <button className=' p-4  m-1 bg-yellow-200 border border-transparent  hover:border-black hover:bg-transparent transition duration-500 '>My Work {'->'} </button>
+
+          </a>
+
+          <a href="#Contact">
+
         <button className=' p-4  m-1 bg-yellow-200 border border-transparent  hover:border-black hover:bg-transparent transition duration-500 '>Get In Touch {'->'}</button>
+          </a>
+
+
+          
 
         </div>
 
