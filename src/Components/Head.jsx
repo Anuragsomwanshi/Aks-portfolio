@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Head = () => {
   return (
-    <div  id='Home' className='min-h-screen flex flex-col  pt-15 md:flex-row'>
+    <div  id='Home' className='min-h-screen flex flex-col  pt-15 md:flex-row border'>
 
         <div className=' m-6 p-4  basis-full md:basis-1/2 flex flex-col justify-center  md:space-y-10' >
         <h1 className='text-5xl sm:text-6xl md:text-7xl  '>
@@ -30,7 +30,11 @@ const Head = () => {
 
         </div>
         <div className=' basis-full md:basis-1/2 m-5 p-4 flex justify-center'>
-            <img className=' shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)] md:w-md'  src={assets.hero} alt="" />
+            <img
+  className="w-full max-w-sm md:max-w-md h-auto shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)]"
+  src={assets.hero}
+  alt=""
+/>
         </div>
     </div>
   )

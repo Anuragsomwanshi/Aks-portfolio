@@ -6,7 +6,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
-    <div className='border-t py-8 border-zinc-300'>
+    <div className='border'>
         <div className='max-w-7xl mx-auto px-5'>
             <div className='flex flex-col md:flex-row items-center justify-between'>
                 <div className='  mb-6 md:mb-0'>
@@ -15,13 +15,10 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <a href="#Home" className='cursor pointer'>
-
-                    <button className='border border-2xl  w-2 h-2 p-2  rounded-full'></button>
-                    </a>
+                   
                     </div>
                     
-                <div className='flex  justify-evenly  w-xl'>
+                <div className="flex w-full md:w-auto justify-center gap-6">
 
                      
                      <a href="https://www.instagram.com/kartik_s_0_01/?hl=en" target="_blank" rel="noopener noreferrer">

@@ -3,11 +3,15 @@ import { assets } from '../assets/assets'
 
 const About = () => {
   return (
-    <div id='About' className='min-h-screen flex flex-col  lg:flex-row'>
+    <div id='About' className='min-h-screen flex flex-col  lg:flex-row border'>
 
         <div className=' bg-green-200 basis-full md:basis-1/2 p-4 m-4 flex flex-col items-center'>
-      <h1 className='md:text-2xl p-2 m-2  l:m-0'>About</ h1>
-        <img className='md:w-md shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)]' src={assets.about} alt=""/>
+      <h1 className='md:text-2xl p-2 m-2  lg:m-0'>About</ h1>
+       <img
+  className="w-full max-w-sm md:max-w-md h-auto shadow-[15px_-5px_13px_2px_rgba(0,0,0,0.3)]"
+  src={assets.about}
+  alt=""
+/>
 
         </div>
 

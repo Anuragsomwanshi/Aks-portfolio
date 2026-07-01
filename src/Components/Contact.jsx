@@ -24,20 +24,20 @@ const Contact = () => {
   };
 
   return (
-    <div id="Contact" className="min-h-screen">
+    <div id="Contact" className="max-w-7xl mx-auto px-4 py-4">
       <h1 className=" place-self-center text-2xl">Get In Touch</h1>
 
-      <div className=" border  mt-35 flex flex-col  items-center gap-6 ">
+      <div className="  mt-35 flex flex-col  items-center gap-6 ">
 
         
         <form onSubmit={onSubmit} className="space-y-6">
           
-          <div className="flex flex-col w-sm sm:w-lg md:w-2xl border  gap-8">
+          <div className="flex flex-col w-full max-w-2xl gap-8">
 
           
             
               <input
-                className=" px-6 py-3   rounded border border-gray-140 outline-none  "
+                className="w-full px-6 py-3 rounded border outline-none"
                 placeholder="Enter Name"
                 type="text"
                 name="name"
@@ -47,7 +47,7 @@ const Contact = () => {
 
         
               <input
-                className=" px-6 py-3  rounded border border-gray-140 outline-none "
+                className="w-full px-6 py-3 rounded border outline-none"
                 placeholder="Enter Email"
                 type="text"
                 name="email"
@@ -57,7 +57,7 @@ const Contact = () => {
 
           
             <input
-              className=" px-6 py-3 md:w-full  border border-gray-140 rounded ountline-none "
+              className="w-full px-6 py-3 rounded border outline-none"
               placeholder="Enter subject"
               type="text"
               name="subject"
@@ -66,7 +66,7 @@ const Contact = () => {
 
           
             <textarea
-              className=" px-6 py-3  border border-gray-140 rounded ountline-none"
+              className="w-full px-6 py-3 rounded border outline-none"
               placeholder="Enter Message"
               type="textarea"
               name="message"
