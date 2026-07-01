@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 body {
-  font-family:cursive;
+  font-family:'Times New Roman';
 }
 html {
   scroll-behavior: smooth;

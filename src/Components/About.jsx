@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const About = () => {
   return (
-    <div id='About' className='min-h-screen flex flex-col  lg:flex-row border'>
+    <div id='About' className='min-h-screen flex flex-col  lg:flex-row '>
 
         <div className=' bg-green-200 basis-full md:basis-1/2 p-4 m-4 flex flex-col items-center'>
       <h1 className='md:text-2xl p-2 m-2  lg:m-0'>About</ h1>

@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Head = () => {
   return (
-    <div  id='Home' className='min-h-screen flex flex-col  pt-15 md:flex-row border'>
+    <div  id='Home' className='min-h-screen flex flex-col  pt-15 md:flex-row'>
 
         <div className=' m-6 p-4  basis-full md:basis-1/2 flex flex-col justify-center  md:space-y-10' >
         <h1 className='text-5xl sm:text-6xl md:text-7xl  '>

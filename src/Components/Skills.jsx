@@ -2,7 +2,7 @@ import React from 'react'
 import {skills} from '../assets/assets'
 const Skills = () => {
   return (
-    <div id='Skills' className='min-h-screen text-2xl border'>
+    <div id='Skills' className='min-h-screen text-2xl '>
         <h1 className='text-2xl place-self-center'>My Skills</h1>
 
 

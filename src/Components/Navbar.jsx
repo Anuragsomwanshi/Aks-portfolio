@@ -16,7 +16,7 @@ const Navbar = () => {
  }
   return (
     <>
-    <div className='flex  w-full  p-4 bg-yellow-200 border'>
+    <div className='flex  w-full  p-4 bg-yellow-200'>
         
         
 
@@ -24,7 +24,7 @@ const Navbar = () => {
             <span className='font-bold text-2xl'>KARTIK</span>
 
             <div  className={`
-    ${isOpen ? "flex flex-col" : "hidden"}
+    ${isOpen ? "flex flex-col items-center" : "hidden"}
     md:flex md:flex-row
     w-full
     justify-end
@@ -34,7 +34,7 @@ const Navbar = () => {
   `}>
 
                 {navMenu.map((item,index)=>(
-                    <a className='text-sm  md:text-2xl md:border-b-2 border-transparent hover:border-black transition duration-400' key={index} onClick={closeMenu}  href={`#${item}`}>{item}</a>
+                    <a className='text-sm   md:text-2xl border rounded bg-white p-1 md:border-transparent hover:border-black transition duration-400' key={index} onClick={closeMenu}  href={`#${item}`}>{item}</a>
                     
                     
                 ))}

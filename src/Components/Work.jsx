@@ -3,7 +3,7 @@ import { work } from '../assets/assets'
 import Workcard from './Workcard'
 const Work = () => {
   return (
-    <div id='Work'  className='min-h-screen max-w-7xl mx-auto px-4 py-4 border '>
+    <div id='Work'  className='min-h-screen max-w-7xl mx-auto px-4 py-4 '>
         <h1 className='text-2xl  place-self-center pb-5 '>My Work</h1>
 
 

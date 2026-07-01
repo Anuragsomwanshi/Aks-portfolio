@@ -6,7 +6,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
-    <div className='border'>
+    <div >
         <div className='max-w-7xl mx-auto px-5'>
             <div className='flex flex-col md:flex-row items-center justify-between'>
                 <div className='  mb-6 md:mb-0'>

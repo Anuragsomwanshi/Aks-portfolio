@@ -23,59 +23,59 @@ export const assets ={
 export const work =[
 
     {
-        name:"bholenath",
+        name:"BHOLENATH SKETCH",
         img:work1,
-        price:34
+        price:`₹ ${3434}`
     },
 
     
     {
-        name:"bholenath",
+        name:"COCONAT SKETCH",
         img:work2,
-        price:34
+        price:`₹ ${3224}`
     },
 
 
     
     {
-        name:"bholenath",
+        name:"GOD GANESH SKETCH",
         img:work3,
-        price:34
+        price:`₹ ${2244}`
     },
 
     
     {
-        name:"bholenath",
+        name:"HORSE SKETCH",
         img:work4,
-        price:34
+        price:`₹ ${4454}`
     },
 
     
     {
-        name:"bholenath",
+        name:"MAHARAJ SKETCH",
         img:work5,
-        price:34
+        price:`₹ ${2334}`
     },
 
     
     {
-        name:"bholenath",
+        name:"OLD MAN SKETCH",
         img:work6,
-        price:34
+        price:`₹ ${6644}`
     },
 
     
     {
-        name:"bholenath",
+        name:"DEVIMA MURAL SKETCH",
         img:work7,
-        price:34
+        price:`₹ ${3344}`
     },
 
     
     {
-        name:"bholenath",
+        name:"FILTER PLUG SKETCH",
         img:work8,
-        price:34
+        price:`₹ ${4453}`
     },
 
   ]
