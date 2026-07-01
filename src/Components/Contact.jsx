@@ -20,11 +20,6 @@ const Contact = () => {
       setResult("Form Submitted Successfully");
       event.target.reset();
 
-      setTimeout(() => {
-        setResult("");
-      }, 2000);
-    } else {
-      setResult("Error");
     }
   };
 
@@ -32,46 +27,52 @@ const Contact = () => {
     <div id="Contact" className="min-h-screen">
       <h1 className=" place-self-center text-2xl">Get In Touch</h1>
 
-      <div className="max-w-3xl mx-auto  mt-35 flex flex-col  items-center gap-6 ">
+      <div className=" border  mt-35 flex flex-col  items-center gap-6 ">
+
+        
         <form onSubmit={onSubmit} className="space-y-6">
           
-            <div>
+          <div className="flex flex-col w-sm sm:w-lg md:w-2xl border  gap-8">
+
+          
+            
               <input
-                className="  px-4 py-3 w-md md:w-lg  rounded border border-gray-140 outline-none  "
+                className=" px-6 py-3   rounded border border-gray-140 outline-none  "
                 placeholder="Enter Name"
                 type="text"
                 name="name"
               />
-              </div>
+              
             
 
-            <div >
+        
               <input
-                className=" px-4 py-3  w-md md:w-lg rounded border border-gray-140 outline-none "
+                className=" px-6 py-3  rounded border border-gray-140 outline-none "
                 placeholder="Enter Email"
                 type="text"
                 name="email"
               />
-            </div>
+            
         
 
-          <div>
+          
             <input
-              className="  px-4 py-3  w-md md:w-lg border border-gray-140 rounded ountline-none "
+              className=" px-6 py-3 md:w-full  border border-gray-140 rounded ountline-none "
               placeholder="Enter subject"
               type="text"
               name="subject"
             />
-          </div>
+          
 
-          <div>
+          
             <textarea
-              className=" px-4 py-3 w-md md:w-lg h-40 border border-gray-140 rounded ountline-none"
+              className=" px-6 py-3  border border-gray-140 rounded ountline-none"
               placeholder="Enter Message"
               type="textarea"
               name="message"
             />
-          </div>
+            </div>
+          
 
           <div className="flex flex-col items-center  justify-center">
             <button
